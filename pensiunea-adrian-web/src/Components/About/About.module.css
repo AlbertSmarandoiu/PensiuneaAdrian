@@ -1,0 +1,56 @@
+.about_wrapper{
+    flex-direction: row;
+}
+
+.about_img{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.about_img img{
+    height: 90%;
+    width: 90%;
+
+}
+
+.about_content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px;
+    gap: 10px;
+    color: #1e1e1e;
+}
+
+.about_content p{
+    font-size: 15px;
+}
+
+.Cards{
+  
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.Cards p{
+    padding: 35px 20px;
+    border: 1px solid #9d7e54;
+    border-radius: 23px;
+    font-size: 22px;
+    text-align:  center;
+    font-weight: 400;
+    background-color: rgba(157,126,84,0.2);
+}
+
+.Cards p span{
+    font-size: 15px;
+}
+
+.aboutPensiune{
+    font-size: 12px;
+}
