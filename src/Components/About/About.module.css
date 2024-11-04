@@ -1,0 +1,152 @@
+.about_wrapper{
+    flex-direction: row;
+}
+
+.about_img{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.about_img img{
+    height: 90%;
+    width: 90%;
+
+}
+
+.about_content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px;
+    gap: 10px;
+    color: #1e1e1e;
+}
+
+.about_content p{
+    font-size: 15px;
+}
+
+.Cards{
+  
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.Cards p{
+    padding: 35px 20px;
+    border: 1px solid #9d7e54;
+    border-radius: 23px;
+    font-size: 22px;
+    text-align:  center;
+    font-weight: 400;
+    background-color: rgba(157,126,84,0.2);
+}
+
+.section_Heading span{
+    color: #9d7e54;
+}
+
+.Cards p span{
+    font-size: 15px;
+}
+
+.aboutPensiune{
+    font-size: 12px;
+}
+
+@media screen and (max-width:1400px) {
+    .Cards{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .about_content p{
+        padding: 0;
+    }
+    .about_img img{
+        height: 80%;
+        width: 100%;
+        align-items: center;
+    }
+    .aboutPensiune{
+        max-width: 100%;
+        white-space: normal; /* Permite textului să se împacheteze pe mai multe linii */
+        text-align: left;
+        min-width: 1000px;
+    }
+    
+    
+}
+@media screen and (max-width:1200px){
+    .about_wrapper {
+        /* display: flex; */
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+    }
+    .about_img {
+        max-width: 100%;
+        align-items: center;
+    }
+    .about_img img {
+        width: 100%;
+        height: auto;
+        min-width: 400px;
+        align-items: center;
+    }
+    .aboutPensiune{
+        flex: 2;
+        max-width: 100%;
+        white-space: normal; /* Permite textului să se împacheteze pe mai multe linii */
+        text-align: left;
+        min-width: 300px;
+    }
+    .aboutPensiune span {
+        flex-basis: 0; /* Elimină restricția de lățime pe span-uri */
+    }
+    .about_content{
+        width: 100%;
+    }
+    .Cards{
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+}
+@media screen and (max-width:768px){
+    .about_wrapper {
+        /* display: flex; */
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+    }
+    .about_img {
+        max-width: 100%;
+        align-items: center;
+    }
+    .about_img img {
+        width: 100%;
+        height: auto;
+        min-width: 400px;
+        align-items: center;
+    }
+    .aboutPensiune{
+        flex: 2;
+        max-width: 100%;
+        white-space: normal; /* Permite textului să se împacheteze pe mai multe linii */
+        text-align: left;
+        min-width: 300px;
+    }
+    .aboutPensiune span {
+        flex-basis: 0; /* Elimină restricția de lățime pe span-uri */
+    }
+    .about_content{
+        width: 100%;
+    }
+    .Cards{
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+}
