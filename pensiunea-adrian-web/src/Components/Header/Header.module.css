@@ -51,9 +51,10 @@
 
 }
 .Header_slide .content small{
-    color: #fff;
-    font-size: 22px;
+    color: #000;
+    font-size: 40px;
     margin-bottom: 20%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 

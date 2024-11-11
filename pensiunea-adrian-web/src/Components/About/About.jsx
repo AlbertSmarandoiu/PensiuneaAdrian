@@ -6,13 +6,13 @@ import aboutImg from './../../assets/piscina.png'
 
 function About(){
     return(
-        <div className={`${aboutCSS.about_wrapper} section`}>
+        <div id="despre-noi" className={`${aboutCSS.about_wrapper} section`}>
             <div className = {aboutCSS.about_img}>
                 <img src={aboutImg} alt="about_img"/>
             </div>
             <div className = {aboutCSS.about_content}>
                 <small className="section_Heading">Pensiunea Adrian</small>
-                <h2 className="section_Title">Despre noi</h2>
+                <h2 className="section_Title">Despre <span>noi</span></h2>
                 <div>
                     <h3 className={aboutCSS.aboutPensiune}>
                     Pensiunea Adrian se află în Novaci-Străini, la 22 km de Ranca Ski Resort, și pune la dispoziție o grădină, o zonă de plajă privată, o terasă și parcare privată gratuită. Printre facilitățile disponibile la această proprietate se numără o bucătărie comună și o recepție deschisă nonstop, precum și WiFi gratuit în întreaga proprietate. Oaspeții pot să utilizeze o cadă cu hidromasaj sau să se bucure de vederea la oraș.

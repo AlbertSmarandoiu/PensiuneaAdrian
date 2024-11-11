@@ -1,0 +1,80 @@
+.galerie_Wrapper {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.galleryGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.thumbnail {
+    width: 100%;
+    height: 150px; /* Adjust to the size you want for your thumbnails */
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.thumbnail:hover {
+    transform: scale(1.05);
+}
+
+.lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    flex-direction: column;
+}
+
+.lightboxImage {
+    max-width: 80vw;
+    max-height: 80vh;
+    object-fit: contain;
+}
+
+.closeButton,
+.prevButton,
+.nextButton {
+    position: absolute;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.closeButton {
+    top: 10px;
+    right: 20px;
+}
+
+.prevButton {
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nextButton {
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media (max-width: 768px) {
+    .galleryGrid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .thumbnail {
+        height: 100px;
+    }
+}

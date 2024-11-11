@@ -25,6 +25,11 @@
 }
 
 
+.navbarScroll{
+    background-color: #1e1e1e;
+}
+
+
 .nav_wrapper .logo a{
     font-size: 25px;
     font-size: 700;
@@ -59,11 +64,21 @@
     
 }
 
+.btn{
+    color: #000;
+    align-items:end;
+
+}
 
 .Nav_btns{
     display: flex;
     gap: 18px;
+    color: #000;
+    font-size: 20px;
     align-items: center;
+    background-color: #cb5c00;
+    border-radius: 30px;
+    align-content: center;
     
 }
 
@@ -100,37 +115,42 @@
 }
 
 
+
+
 @media screen and (max-width:1200px) {
-    #bars{
+    #bars {
         display: flex;
     }
-    .nav_wrapper ul{
+
+    /* Start with the menu hidden */
+    .nav_wrapper ul {
         position: absolute;
-        top:100%;
+        top: 100%;
         left: 0;
         width: 100%;
         background-color: rgba(0,0,0,0.3);
         backdrop-filter: blur(2px);
-        border-top: 1px solid rgba(255,255,255,0.5);
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
         border-bottom: 1px solid #fff;
-        /* transition: 6s; */
+        display: none; /* Initially hidden */
+        flex-direction: column;
     }
 
-    .nav_wrapper .showNav{
-        display: block;
-
+    /* Show the menu when .showNav class is applied */
+    .nav_wrapper .showNav {
+        display: flex;
     }
 
-    .nav_wrapper ul li{
+    .nav_wrapper ul li {
         display: block;
-        margin:5px 0;
+        margin: 5px 0;
         padding: 25px 0;
         padding-left: 15%;
-        border-bottom: 1px solid rgba(131,131,131,0.5);
+        border-bottom: 1px solid rgba(131, 131, 131, 0.5);
     }
-    .nav_wrapper ul li:last-child{
+
+    .nav_wrapper ul li:last-child {
         border: none;
     }
 }
-
 
