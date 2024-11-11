@@ -3,7 +3,7 @@ import roomsCSS from './../Rooms/Room.module.css'
 
 function Rooms(){
     return(
-        <div className={`${roomsCSS.Rooms_container} section`}>
+        <div id="camere" className={`${roomsCSS.Rooms_container} section`}>
             <small  className="section_Heading">Camerele Noastre:</small>
             <h2 className="section_Title">Despre <span>camere</span> noastre:</h2>
 
@@ -79,7 +79,7 @@ function Rooms(){
                         <div className={`${roomsCSS.Card_front} ${roomsCSS.Card_front4}`}>
                             <button>Camera Tripla</button>
                         </div>
-                        <div className={`${roomsCSS.Card_back} , ${roomsCSS.Card_back}`}></div>
+                        <div className={`${roomsCSS.Card_back} , ${roomsCSS.Card_back4}`}></div>
                             <div className={roomsCSS.prince}>
                                 <p></p>
                             </div>

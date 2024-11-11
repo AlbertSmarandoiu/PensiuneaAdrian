@@ -36,7 +36,7 @@ function Header(){
                     <div className={`${headerCSS.Header_slide} ${headerCSS.slider2}`}>
                         <div className={headerCSS.content}>
                             <small data-swiper-parallax="-200">Pensiunea Adrian</small>
-                            <h2 data-swiper-parallax="-300">Bucurate de o <span>vacanta</span> cu <br/>
+                            <h2 data-swiper-parallax="-300">Cu  <span>piscina incalzita</span>  <br/>
                                 <span>Exepriente</span> de Lux
                             </h2>
                             <p data-swiper-parallax="-400">Suna acum <span>0757741699</span></p>

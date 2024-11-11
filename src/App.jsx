@@ -7,8 +7,12 @@ import Header from './Components/Header/Header'
 import About from './Components/About/About'
 import Services from './Components/Services/Services'
 import Rooms from './Components/Rooms/Room'
+import Amenities from './Components/Amenities/Amenities'
+import Testimonials from './Components/Testimonials/Testimonials'
+import Footer from './Components/Footer/Footer'
+import Galerie from './Components/Galerie/Galerie'
 function App() {
-  const [count, setCount] = useState(0)
+   const [count, setCount] = useState(0)
 
   return (
     <>
@@ -17,6 +21,10 @@ function App() {
     <About/>
     <Services/>
     <Rooms/>
+    <Amenities/>
+    <Galerie/>
+    <Testimonials/>
+    <Footer/>
     </>
     
   )

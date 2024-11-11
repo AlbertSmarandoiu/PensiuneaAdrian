@@ -1,54 +1,55 @@
-import React ,{useRef} from "react";
-import navCSS from './../Nav/Nav.module.css'
+import React, { useRef } from "react";
+import navCSS from "./../Nav/Nav.module.css";
 
-function Nav(){
-
+function Nav() {
     const menu = useRef();
-
     const navbar = useRef();
-    // const menuHandler =() =>{
-    //     menu.current.classList.toggle(navCSS.showNav);
-    // }
-    // const menuHandler = () => {
-    //     const menu = document.querySelector(navCSS.nav_wrapper);
-    //     menu.classList.toggle(navCSS.showNav);
-    // };
+
+    // Menu toggle function
     const menuHandler = () => {
         menu.current.classList.toggle(navCSS.showNav);
     };
 
-    window.addEventListener('scroll' ,function(){
-        if(window.scrollY>100){
-            navbar.current.classList.add(navCSS.navbarScroll)
-        }else{
-            navbar.current.classList.remove(navCSS.navbarScroll)
+    // Scroll effect
+    window.addEventListener("scroll", function () {
+        if (window.scrollY > 100) {
+            navbar.current.classList.add(navCSS.navbarScroll);
+        } else {
+            navbar.current.classList.remove(navCSS.navbarScroll);
         }
-    })
+    });
 
-    return(
-        <div className ={navCSS.nav_wrapper} ref={navbar}>
-            <div className = {navCSS.logo}>
-                <a href="#"><span>Pensiunea</span> Adrian</a>
+    return (
+        <div className={navCSS.nav_wrapper} ref={navbar}>
+            <div className={navCSS.logo}>
+                <a href="#">
+                    <span>Pensiunea</span> Adrian
+                </a>
             </div>
 
-            <ul ref={menu}>
-                <li> <a href="#">Acasa</a> </li>
-                <li> <a href="#">Despre Noi</a> </li>
-                <li> <a href="#">Camere</a> </li>
-                <li> <a href="#">Aici vad dupa</a> </li>
-                <li> <a href="#">Contact</a> </li>
-
+            {/* Menu UL */}
+            <ul ref={menu} className={navCSS.nav_menu}>
+                <li><a href="#">Acasa</a></li>
+                <li><a href="#despre-noi">Despre Noi</a></li>
+                <li><a href="#camere">Camere</a></li>
+                <li><a href="#">Galerie</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
 
+            {/* WhatsApp Button */}
             <div className={navCSS.Nav_btns}>
-                <button  className={navCSS.btn}>Fa o rezervare acum</button>
-                <i className="ri-menu-4-line" id={navCSS.bars} onClick={menuHandler}></i> 
-                           
+                <a
+                    href="https://wa.me/+40757741699?text=Hello%20Pensiunea%20Adrian,%20I%20would%20like%20to%20make%20a%20reservation."
+                    className={navCSS.btn}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Book news
+                </a>
+                <i className="ri-menu-4-line" id={navCSS.bars} onClick={menuHandler}></i>
             </div>
         </div>
-        
-    )
-
+    );
 }
 
-export default Nav
+export default Nav;

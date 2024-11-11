@@ -6,7 +6,7 @@ import aboutImg from './../../assets/piscina.png'
 
 function About(){
     return(
-        <div className={`${aboutCSS.about_wrapper} section`}>
+        <div id="despre-noi" className={`${aboutCSS.about_wrapper} section`}>
             <div className = {aboutCSS.about_img}>
                 <img src={aboutImg} alt="about_img"/>
             </div>

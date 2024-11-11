@@ -1,4 +1,4 @@
-.card_Container{
+ .card_Container{
     perspective: 1000px;
 
 }
@@ -16,6 +16,7 @@
     transform-style: preserve-3d;
     transform: rotateY(0deg);
     transition: .6s;
+    position: relative;
 }
 
 
@@ -34,33 +35,41 @@
     justify-content: space-between;
     align-items: center;
     padding: 25px;
+    color: #fff; 
+    z-index: 2; 
 }
+
+
 
 .Card_front{
-    background: url(./../../assets/delux.png);
-    justify-content: end;
+    background-image: url(./../../assets/delux.png);
+    background-size: cover;
+    justify-content: flex-end;
+    z-index: 2;
 }
 
-.Card_front button{
+ .Card_front button{
     width: 100%;
-}
+} 
 
 .Card_back{
-    background: url(./../../assets/delux.png);
+    background-image: url(./../../assets/delux.png);
+    background-size: cover;
     transform: rotateY(180deg);
+    z-index: 1;
+    color: #fff;
 }
 
 .Card_back::after{
     position: absolute;
     content: '';
+    inset: 5%;
     top: 5%;
-    left: 0;
+    left: 5%;
     width: 90%;
     height: 90%;
     margin: auto;
     background-color: rgba(255,255,255,0.4);
-    border: 1px solid rgba(255,255,255,1);
-    backdrop-filter: blur(5px);
     border-radius: 12px;
     z-index: -1;
 }
@@ -76,25 +85,29 @@
 .Card_back .Card_content{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 10px; 
+    text-align: center;
+    color: #fff;
 }
 
 .Card_back .Card_content h3 , .Card_back .Card_content p{
     font-family: 'Poppins';
+     color: #fff; 
 
 
 }
 .BookNow{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 10px;
     width: 100%;
-    align-items: center;
 }
 
 .BookNow i{
     height: 100%;
     width: 50%;
     background-color: #1e1e1e;
+    color:#fff ;
 }
 
 @media screen and (max-width:1200px) {
@@ -138,3 +151,15 @@
 .Card_back3{
     background: url(./../../assets/cameraDubla.png);
 }
+
+.Card_front4{
+    background: url(./../../assets/cameraDubla.png);
+   
+}
+
+
+
+.Card_back4{
+    background: url(./../../assets/cameraDubla.png);
+} 
+
