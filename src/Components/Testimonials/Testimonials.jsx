@@ -21,15 +21,15 @@ function Testimonials(){
                 spaceBetween={30}
                 loop={true}
                 autoplay={{
-                    delay: 1000,
+                    delay: 3000,
                 }}
                 breakpoints={{
-                    0:{
-                        slidesPerView:3
+                    768: {
+                        slidesPerView: 1,
                     },
-                    1200:{
-                        slidesPerView:2
-                    }
+                    1200: {
+                        slidesPerView:2,
+                    },
                 }}
                 speed={1500}
                 modules={[Autoplay]}
