@@ -11,7 +11,7 @@ function About(){
                 <img src={aboutImg} alt="about_img"/>
             </div>
             <div className = {aboutCSS.about_content}>
-                <small className="section_Heading">Pensiunea Adrian</small>
+                <small className="section_Heading">Pensiunea Adriann</small>
                 <h2 className="section_Title">Despre <span>noi</span></h2>
                 <div>
                     <h3 className={aboutCSS.aboutPensiune}>
