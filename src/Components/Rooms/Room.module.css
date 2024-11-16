@@ -19,6 +19,44 @@
     position: relative;
 }
 
+.btn, .BookNow button {
+    background: linear-gradient(135deg, #ff7f50, #ff4500); /* Coral gradient */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    align-items: center;
+}
+
+
+
+.btn:hover, .BookNow button:hover {
+    background: linear-gradient(135deg, #ff4500, #c71585); /* Vibrant hover gradient */
+    transform: scale(1.05);
+    align-items: center;
+}
+
+
+#bars{
+    border:none;
+    background-color: #cb5c00;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 0px 0px #ffffff94 , inset 3px 3px 10px #ffffff94; 
+    transition: 1s;
+    cursor: pointer;
+    display: none;
+}
 
 .card:hover{
     transform: rotateY(180deg);
@@ -84,26 +122,50 @@
     background-color: #ff7f50; 
     color: white;
     cursor: pointer;
+    align-items: center;
 }
 
-
+.room_btns{
+    display: flex;
+    gap: 18px;
+    color: #000;
+    font-size: 20px;
+    align-items: center;
+    background-color: #cb5c00;
+    border-radius: 30px;
+    align-content: center;
+    
+}
 
 
 
 
 .BookNow{
-    display: flex;
+    display:center;
     justify-content: center;
     gap: 10px;
     width: 100%;
+    align-items: center;
 }
 
-.BookNow i{
+/* .BookNow i{
     height: 100%;
     width: 50%;
     background-color: #1e1e1e;
     color:#fff ;
-} 
+}  */
+
+
+
+.BookNow {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    gap: 10px; /* Keep if you have other elements with spacing needs */
+    width: 100%; /* Ensure it spans the full width of the container */
+    height: 100%; /* Adjust height as needed to ensure centering */
+}
+
 
 @media screen and (max-width:1200px) {
     .cards{
