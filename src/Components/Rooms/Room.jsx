@@ -157,7 +157,7 @@ const roomDetails = [
 function Rooms() {
   return (
     <div id="camere" className={`${roomsCSS.Rooms_container} section`}>
-      <small className="secxtion_Heading">Camerele Noastre:</small>
+      <small className="secxtion_Heading"></small>
       <h2 className="section_Title">
         Despre <span>camere</span> noastre:
       </h2>

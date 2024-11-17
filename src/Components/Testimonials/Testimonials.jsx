@@ -13,7 +13,7 @@ import img4 from './../../assets/daniela.png'
 function Testimonials(){
     return(
         <div className={ `${testimonialsCSS.testimonials_wrapper} section` }>
-            <small  className="section_Heading">Testimonials</small>
+            <small  className="section_Heading">Recenzii</small>
             <h2 className="section_Title">Ce au spus  <span>clientii </span>despre noi:</h2>
 
             <Swiper 

@@ -32,7 +32,7 @@ function Nav() {
                 <li><a href="#">Acasa</a></li>
                 <li><a href="#despre-noi">Despre Noi</a></li>
                 <li><a href="#camere">Camere</a></li>
-                <li><a href="#">Galerie</a></li>
+                <li><a href="#galerieFoto">Galerie</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
 

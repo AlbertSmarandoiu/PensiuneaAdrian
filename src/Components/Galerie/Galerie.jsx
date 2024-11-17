@@ -5,17 +5,33 @@ import img1 from "./../../assets/pensiune_integrala.png";
 import img2 from "./../../assets/piscina.png";
 import img3 from "./../../assets/jacuzzi.png";
 import img4 from "./../../assets/pensiune_integrala2.png";
-// ... import all 20 images
+import img5 from "./../../assets/IMG-20241117-WA0007.jpg";
+import img6 from "./../../assets/IMG-20241117-WA0008.jpg";
+import img7 from "./../../assets/IMG-20241117-WA0009.jpg";
+import img8 from "./../../assets/IMG-20241117-WA0010.jpg";
+import img9 from "./../../assets/IMG-20241117-WA0011.jpg";
+import img10 from "./../../assets/IMG-20241117-WA0012.jpg";
+import img11 from "./../../assets/IMG-20241117-WA0013.jpg";
+import img12 from "./../../assets/IMG-20241117-WA0014.jpg";
+import img13 from "./../../assets/IMG-20241117-WA0015.jpg";
+import img14 from "./../../assets/IMG-20241117-WA0016.jpg";
+import img15 from "./../../assets/IMG-20241117-WA0017.jpg";
+import img16 from "./../../assets/IMG-20241117-WA0018.jpg";
+import img17 from "./../../assets/IMG-20241117-WA0019.jpg";
+
 import img18 from "./../../assets/gratar.png";
 
 const images = [
-    img1, img2, img3, img4, 
+    img1, img2, img3, img4,img5 , img6 , img7 , img8 , img9 , img10,img11 ,img12 ,img13 ,img14 ,img15 ,img16,
+    img17,
     // add all your images in this array
     img18
 ];
 
 function Galerie() {
     const [currentIndex, setCurrentIndex] = useState(null);
+    const [showAll, setShowAll] = useState(false); // Starea pentru a afișa toate imaginile
+
 
     const openLightbox = (index) => {
         setCurrentIndex(index);
@@ -32,12 +48,15 @@ function Galerie() {
     const goToNext = () => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
     };
+   
 
     return (
-        <div className={galerieCSS.galerie_Wrapper}>
-            <small className="section_Heading">Galerie <span>foto</span>:</small>
-            <h2 className="section_Title"><span></span></h2>
-            
+        <div id="galerieFoto" className={galerieCSS.galerie_Wrapper}>
+            <small className="section_Heading"><span></span></small>
+            <h2 className="section_Title"> Galerie <span> Foto:
+                
+                 </span></h2>
+            <h2>  </h2>
             <div className={galerieCSS.galleryGrid}>
                 {images.map((img, index) => (
                     <img 

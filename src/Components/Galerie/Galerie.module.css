@@ -1,12 +1,22 @@
 .galerie_Wrapper {
     width: 100% !important;
     height: 100% !important;
+    padding: 5%;
 }
 
 .galleryGrid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
+}
+.section_Heading{
+    width: 100% !important;
+    height: 100% !important;
+    color: blue;
+}
+
+.galerie_Wrapper h2 {
+    margin-bottom: 25px; /* Adaugă spațiu între titlu și grilă */
 }
 
 .thumbnail {
@@ -68,6 +78,8 @@
     top: 50%;
     transform: translateY(-50%);
 }
+
+
 
 @media (max-width: 768px) {
     .galleryGrid {

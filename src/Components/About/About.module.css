@@ -64,7 +64,11 @@
         grid-template-columns: repeat(2,1fr);
     }
     .about_content p{
-        padding: 0;
+        padding: 10%;
+    }
+    .about_img{
+        padding: auto;
+    
     }
     .about_img img{
         height: 80%;

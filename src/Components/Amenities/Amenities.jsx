@@ -16,7 +16,7 @@ function Amenities(){
     };
     return(
         <div className={`${amenitiesCSS.amenities_wrapper} section`}>
-            <small  className="section_Heading">Facilitati :</small>
+            <small  className="section_Heading"></small>
             <h2 className="section_Title">Cele mai bune <span>facilitati </span>ale noastre:</h2>
 
             <Swiper 
