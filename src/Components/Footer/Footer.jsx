@@ -38,10 +38,10 @@ function Footer(){
                 <p>
                     Email: 
                     <a
-                        href="mailto:adriancirtina@yahoo.com"
+                        href="mailto:adrian.cirtina@yahoo.com"
                         className={footerCSS.link}
                     >
-                        adriancirtina@yahoo.com
+                        adrian.cirtina@yahoo.com
                     </a>
                 </p>   <p>
                     Telefon: 

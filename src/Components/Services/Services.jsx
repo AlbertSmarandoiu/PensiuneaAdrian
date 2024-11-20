@@ -29,6 +29,7 @@ function Services(){
                     <p>-WiFi gratuit inclus</p>
                     <p>-TV si AC</p>
                     <p>-Bar</p>
+                    <p>-prosoipe</p>
                 </div>
             </div>
                 

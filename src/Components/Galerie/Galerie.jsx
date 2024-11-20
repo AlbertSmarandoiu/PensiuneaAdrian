@@ -22,7 +22,11 @@ import img17 from "./../../assets/IMG-20241117-WA0019.jpg";
 import img18 from "./../../assets/gratar.png";
 
 const images = [
-    img1, img2, img3, img4,img5 , img6 , img7 , img8 , img9 , img10,img11 ,img12 ,img13 ,img14 ,img15 ,img16,
+    img1, img2, img3, img4,img5 , img6 , 
+    img7 , img8 , img9 , 
+    img10,img11 ,
+    img12 ,img13 ,img14,
+    img15 ,img16,
     img17,
     // add all your images in this array
     img18

@@ -32,7 +32,7 @@ function Amenities(){
             >
                 <SwiperSlide>
                     <div className={amenitiesCSS.amenities_item}>
-                            <img src={img1} alt="aminties-img"/>
+                            <img src={img1} alt="aminties-img"className={amenitiesCSS.image}/>
                             <div className={amenitiesCSS.content}>
                                 <h2>
                                     Piscina
@@ -44,7 +44,7 @@ function Amenities(){
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className={amenitiesCSS.amenities_item}>
-                            <img src={img2} alt="aminties-img" />
+                            <img src={img2} alt="aminties-img"className={amenitiesCSS.image}/>
                             <div className={amenitiesCSS.content}>
                                 <h2>
                                     Gratar
@@ -56,7 +56,7 @@ function Amenities(){
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className={amenitiesCSS.amenities_item}>
-                        <img src={img3} alt="aminties-img"/>
+                            <img src={img3} alt="aminties-img"className={amenitiesCSS.image}/>
                             <div className={amenitiesCSS.content}>
                                 <h2>
                                     Javuzzi
@@ -68,7 +68,7 @@ function Amenities(){
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className={amenitiesCSS.amenities_item}>
-                        <img src={img4} alt="aminties-img"/>
+                        <img src={img4} alt="aminties-img"className={amenitiesCSS.image}/>
                             <div className={amenitiesCSS.content}>
                                 <h2>
                                     Biliard

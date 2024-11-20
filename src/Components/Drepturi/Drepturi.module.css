@@ -1,0 +1,42 @@
+.Drepturi_wrapper {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 20px; /* Spațiu în jurul textului */
+    text-align: center; /* Centrare conținut */
+    font-size: 16px; /* Dimensiune text potrivită */
+    line-height: 1.6; /* Spațiere între linii pentru lizibilitate */
+}
+
+.Drepturi_wrapper a {
+    color: #00aaff; /* Culoare vizibilă pentru linkuri */
+    text-decoration: none; /* Eliminăm sublinierea */
+    margin: 0 5px; /* Spațiu între linkuri */
+    font-weight: bold; /* Îngroșăm textul linkurilor */
+    transition: color 0.3s ease; /* Animăm culoarea la hover */
+}
+
+.Drepturi_wrapper a:hover {
+    color: #ffaa00; /* Culoare schimbată la hover */
+}
+
+.Drepturi_wrapper p {
+    margin: 0 auto; /* Centrare text */
+    max-width: 800px; /* Limităm lățimea textului */
+}
+
+.Drepturi_wrapper .social-links {
+    margin-top: 10px; /* Spațiu față de text */
+}
+
+.Drepturi_wrapper .social-links a {
+    display: inline-block; /* Aranjare pe un rând */
+    margin: 0 10px; /* Spațiu între iconițe */
+    color: #fff; /* Alb pentru iconițe */
+    font-size: 20px; /* Dimensiune potrivită */
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.Drepturi_wrapper .social-links a:hover {
+    transform: scale(1.2); /* Mărim iconițele la hover */
+    color: #ffaa00; /* Schimbăm culoarea */
+}

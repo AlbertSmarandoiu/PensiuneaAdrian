@@ -10,8 +10,8 @@
 }
 
 .amenities_item img{
-    width: auto;
-    height: 60%;
+    width: 100%;
+    height: auto;
     border-top-right-radius: 20%;
     border-bottom-right-radius: 20%;
     border-top-left-radius: 20%;
@@ -24,6 +24,13 @@
     gap: 20px;
 
 }
+.image {
+    width: 500px;
+    max-width: 600px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
 .content h2{
     font-size: 60px;
     margin-left: -100px;

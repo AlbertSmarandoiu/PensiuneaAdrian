@@ -11,6 +11,8 @@ import Amenities from './Components/Amenities/Amenities'
 import Testimonials from './Components/Testimonials/Testimonials'
 import Footer from './Components/Footer/Footer'
 import Galerie from './Components/Galerie/Galerie'
+import ObiectiveTuristice from './Components/ObiectiveTuristice/ObiectiveTuristice'
+import Drepturi from './Components/Drepturi/Drepturi'
 function App() {
    const [count, setCount] = useState(0)
 
@@ -23,8 +25,10 @@ function App() {
     <Rooms/>
     <Amenities/>
     <Galerie/>
+    <ObiectiveTuristice/>
     <Testimonials/>
     <Footer/>
+    <Drepturi/>
     </>
     
   )
