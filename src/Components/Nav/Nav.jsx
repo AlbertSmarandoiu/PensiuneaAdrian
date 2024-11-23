@@ -1,6 +1,8 @@
 import React, { useRef } from "react";
 import navCSS from "./../Nav/Nav.module.css";
 
+// import img1 from './../../assets/logo.png'
+
 function Nav() {
     const menu = useRef();
     const navbar = useRef();
@@ -21,6 +23,7 @@ function Nav() {
 
     return (
         <div className={navCSS.nav_wrapper} ref={navbar}>
+            {/* <img src={img1} alt="aminties-img"className={amenitiesCSS.image}/> */}
             <div className={navCSS.logo}>
                 <a href="#">
                     <span>Pensiunea</span> Adrian
