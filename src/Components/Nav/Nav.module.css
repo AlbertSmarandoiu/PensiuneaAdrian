@@ -1,5 +1,5 @@
 .nav_wrapper{
-    height: 80px;
+    height: 40px;
     width: 100%;
 
     display: flex;
@@ -12,6 +12,22 @@
     z-index: 99;
 }
 
+.imageLogo{
+    width: 90px;
+    height: 100px ;
+    padding-right: 15px;
+    align-items: flex-start;
+}
+
+.text{
+    width: 100%;
+    text-align: center; /* Center the text */
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family:  bold;
+    color: #cb5c00; /* Orange color */
+}
 
 .nav_wrapper::after{
     content: "";
@@ -36,7 +52,7 @@
     color: #ffffff;
 }
 .nav_wrapper .logo a span{
-    color: #cb5c00;
+    color: #B46211;
 }
 .nav_wrapper ul li{
     display: inline-block;

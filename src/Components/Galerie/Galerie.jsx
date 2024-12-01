@@ -1,35 +1,30 @@
 import React, { useState } from "react";
 import galerieCSS from "./../Galerie/Galerie.module.css";
 
-import img1 from "./../../assets/pensiune_integrala.png";
-import img2 from "./../../assets/piscina.png";
-import img3 from "./../../assets/jacuzzi.png";
-import img4 from "./../../assets/pensiune_integrala2.png";
-import img5 from "./../../assets/IMG-20241117-WA0007.jpg";
-import img6 from "./../../assets/IMG-20241117-WA0008.jpg";
-import img7 from "./../../assets/IMG-20241117-WA0009.jpg";
-import img8 from "./../../assets/IMG-20241117-WA0010.jpg";
-import img9 from "./../../assets/IMG-20241117-WA0011.jpg";
-import img10 from "./../../assets/IMG-20241117-WA0012.jpg";
-import img11 from "./../../assets/IMG-20241117-WA0013.jpg";
-import img12 from "./../../assets/IMG-20241117-WA0014.jpg";
-import img13 from "./../../assets/IMG-20241117-WA0015.jpg";
-import img14 from "./../../assets/IMG-20241117-WA0016.jpg";
-import img15 from "./../../assets/IMG-20241117-WA0017.jpg";
-import img16 from "./../../assets/IMG-20241117-WA0018.jpg";
-import img17 from "./../../assets/IMG-20241117-WA0019.jpg";
+import img1 from "./../../assets/galerie1.jpg";
+import img2 from "./../../assets/galerie2.jpg";
+import img3 from "./../../assets/galerie3.jpg";
+import img4 from "./../../assets/galerie4.jpg";
+import img5 from "./../../assets/galerie5.jpg";
+import img6 from "./../../assets/galerie6.jpg";
+import img7 from "./../../assets/galerie7.jpg";
+import img8 from "./../../assets/galerie8.jpg";
+import img9 from "./../../assets/galerie9.jpg";
+import img10 from "./../../assets/galerie10.jpg";
+import img11 from "./../../assets/galerie11.jpg";
+// import img12 from "./../../assets/galerie12.jpg";
+// import img13 from "./../../assets/IMG-20241117-WA0015.jpg";
+// import img14 from "./../../assets/IMG-20241117-WA0016.jpg";
+// import img15 from "./../../assets/IMG-20241117-WA0017.jpg";
+// import img16 from "./../../assets/IMG-20241117-WA0018.jpg";
+// import img17 from "./../../assets/IMG-20241117-WA0019.jpg";
 
-import img18 from "./../../assets/gratar.png";
+// import img18 from "./../../assets/gratar.png";
 
 const images = [
     img1, img2, img3, img4,img5 , img6 , 
     img7 , img8 , img9 , 
-    img10,img11 ,
-    img12 ,img13 ,img14,
-    img15 ,img16,
-    img17,
-    // add all your images in this array
-    img18
+    img10,img11
 ];
 
 function Galerie() {

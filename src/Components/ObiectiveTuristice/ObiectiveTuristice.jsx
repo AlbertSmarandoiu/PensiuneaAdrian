@@ -31,7 +31,7 @@ function ObiectiveTuristice() {
                 className={ObiectiveTuristiceCSS.swiper}
             >
                 <SwiperSlide>
-                    <div className={ObiectiveTuristiceCSS.obiective_item}>
+                    <div id="PesteraMuierii" className={ObiectiveTuristiceCSS.obiective_item}>
                         <img src={img1} alt="ObiectivaTuristice-img" className={ObiectiveTuristiceCSS.image}/>
                         <div className={ObiectiveTuristiceCSS.content}>
                             <h2>Pestera Muierii</h2>
@@ -44,7 +44,7 @@ function ObiectiveTuristice() {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className={ObiectiveTuristiceCSS.obiective_item}>
+                    <div id="Casutele" className={ObiectiveTuristiceCSS.obiective_item}>
                         <img src={img2} alt="ObiectivaTuristice-img" className={ObiectiveTuristiceCSS.image}/>
                         <div className={ObiectiveTuristiceCSS.content}>
                             <h2>Casutele Rasturnate</h2>
@@ -68,7 +68,7 @@ function ObiectiveTuristice() {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className={ObiectiveTuristiceCSS.obiective_item}>
+                    <div id="PesteraPolovragi" className={ObiectiveTuristiceCSS.obiective_item}>
                         <img src={img4} alt="ObiectivaTuristice-img" className={ObiectiveTuristiceCSS.image}/>
                         <div className={ObiectiveTuristiceCSS.content}>
                             <h2>Pestera Polovragi</h2>
@@ -80,7 +80,7 @@ function ObiectiveTuristice() {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className={ObiectiveTuristiceCSS.obiective_item}>
+                    <div id="Padurea" className={ObiectiveTuristiceCSS.obiective_item}>
                         <img src={img5} alt="ObiectivaTuristice-img" className={ObiectiveTuristiceCSS.image}/>
                         <div className={ObiectiveTuristiceCSS.content}>
                             <h2>Padurea Colorata</h2>

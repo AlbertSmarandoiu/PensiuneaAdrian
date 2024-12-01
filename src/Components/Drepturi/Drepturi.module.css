@@ -1,42 +1,60 @@
 .Drepturi_wrapper {
-    background-color: #1e1e1e;
-    color: #fff;
-    padding: 20px; /* Spațiu în jurul textului */
+    background-color: #1e1e1e; /* Fundal închis */
+    color: #fff; /* Text alb */
+    padding: 20px; /* Mărim spațiul */
     text-align: center; /* Centrare conținut */
-    font-size: 16px; /* Dimensiune text potrivită */
-    line-height: 1.6; /* Spațiere între linii pentru lizibilitate */
+    font-size: 16px; /* Dimensiune text mai mare */
+    line-height: 1.6; /* Spațiere mai mare între linii */
+    border-top: 3px solid #00aaff; /* Linie de separare pe partea de sus */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Umbră pentru adâncire */
+}
+
+.Drepturi_wrapper p {
+    margin: 0 auto; /* Eliminăm spațiul extern suplimentar */
+    max-width: 800px; /* Limităm lățimea textului */
+    display: flex; /* Aranjăm conținutul pe un rând */
+    flex-wrap: wrap; /* Permitem textului să treacă pe rânduri noi dacă e necesar */
+    justify-content: center; /* Centrare pe orizontală */
+    gap: 20px; /* Mai mult spațiu între elemente */
 }
 
 .Drepturi_wrapper a {
     color: #00aaff; /* Culoare vizibilă pentru linkuri */
     text-decoration: none; /* Eliminăm sublinierea */
-    margin: 0 5px; /* Spațiu între linkuri */
-    font-weight: bold; /* Îngroșăm textul linkurilor */
-    transition: color 0.3s ease; /* Animăm culoarea la hover */
+    font-weight: bold; /* Linkuri cu text îngroșat */
+    transition: color 0.3s ease, transform 0.3s ease; /* Animare la hover */
 }
 
 .Drepturi_wrapper a:hover {
-    color: #ffaa00; /* Culoare schimbată la hover */
-}
-
-.Drepturi_wrapper p {
-    margin: 0 auto; /* Centrare text */
-    max-width: 800px; /* Limităm lățimea textului */
+    color: #ffaa00; /* Schimbăm culoarea la hover */
+    transform: scale(1.05); /* Mărim puțin link-ul la hover */
 }
 
 .Drepturi_wrapper .social-links {
-    margin-top: 10px; /* Spațiu față de text */
+    margin-top: 20px; /* Spațiu mai mare față de text */
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Spațiu între iconițele de social media */
 }
 
 .Drepturi_wrapper .social-links a {
-    display: inline-block; /* Aranjare pe un rând */
-    margin: 0 10px; /* Spațiu între iconițe */
-    color: #fff; /* Alb pentru iconițe */
-    font-size: 20px; /* Dimensiune potrivită */
+    margin: 0; /* Eliminăm marginile inutile */
+    color: #fff; /* Iconițe albe */
+    font-size: 24px; /* Dimensiune iconițe mai mare */
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .Drepturi_wrapper .social-links a:hover {
     transform: scale(1.2); /* Mărim iconițele la hover */
-    color: #ffaa00; /* Schimbăm culoarea */
+    color: #ffaa00; /* Schimbăm culoarea iconițelor */
+}
+
+@media (max-width: 600px) {
+    .Drepturi_wrapper p {
+        font-size: 14px; /* Text mai mic pentru ecrane mici */
+    }
+
+    .Drepturi_wrapper .social-links {
+        font-size: 18px; /* Iconițe mai mici */
+    }
 }

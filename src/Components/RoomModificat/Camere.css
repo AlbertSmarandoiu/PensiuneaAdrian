@@ -1,0 +1,91 @@
+.rooms-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Afișează 4 coloane pe ecrane mari */
+  gap: 40px;
+  margin: 40px 100px;
+  max-width: 1200px;
+  align-items: center;
+}
+
+
+.room-card {
+  position: relative;
+  width: 350px; /* Dimensiune mai mică pentru card */
+  height: 350px; /* Ajustează înălțimea pentru imagini mai mici */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.room-card:hover {
+  transform: scale(1.05);
+}
+
+.room-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Asigură ajustarea imaginii */
+}
+
+.room-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.room-card:hover .room-overlay {
+  opacity: 1;
+}
+
+.room-overlay h3 {
+  color: white;
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.room-button {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out;
+}
+
+.room-button:hover {
+  background: linear-gradient(to right, #feb47b, #ff7e5f);
+}
+
+/* Media queries pentru responsive design */
+ 
+
+@media screen and (max-width: 1200px) {
+  .rooms-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 coloane pe ecrane medii */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .rooms-container {
+    grid-template-columns: repeat(1, 1fr); /* 1 coloană pe ecrane mici */
+  }
+}
+
+@media (max-width: 1200px) {
+  .responsive-container {
+    flex-direction: column;
+  }
+}

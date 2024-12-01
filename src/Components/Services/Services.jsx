@@ -13,23 +13,28 @@ function Services(){
                 <div className={ServicesCSS.Services_card}>
                     <i className="ri-hotel-line"></i>
                     <h3>-Facilitati normale:</h3>
-                    <p>-camere pentru nefumători</p>
-                    <p>-facilităţi pentru persoane cu mobilitate redusă</p>
+                    <p>-Camere pentru nefumători</p>
                     <p>-WiFi gratuit inclus</p>
-                    <p>-parcare gratuită</p>
-                    <p>-camere de familie</p>
-                    <p>-Aparat de preparare a ceaiului/cafelei în toate camerele</p>
-                    <p>-zonă de plajă privată</p>
-                </div>
+                    <p>-Parcare gratuită</p>
+                    <p>-Camere de familie</p>
+                    <p>-Piscina sezoniera</p>
+                    <p>-Zonă de plajă privată</p>
+                    <p>-Ciubar cu aero-masaj</p>
+                    <p>-2 bucatarii comune</p>
+                    <p>-Biliard</p>
+                    <p>-Gratar curte</p>
+                    <p>-Foisor exterior</p>
+                    <p>-Vatra de foc</p>
+                    </div>
                 <div className={ServicesCSS.Services_card}>
                     <i className="ri-hotel-bed-line"></i>
                     <h3>-Facilitati Camere:</h3>
-                    <p>-Paturi confrtablie</p>
-                    <p>-Baie individuala</p>
-                    <p>-WiFi gratuit inclus</p>
-                    <p>-TV si AC</p>
-                    <p>-Bar</p>
-                    <p>-prosoipe</p>
+                    <p>-Lenjerii albe</p>
+                    <p>-Tv</p>
+                    <p>-Aer condiționat </p>
+                    <p>-Prosoape față/baie</p>
+                    <p>-Produse de igienă</p>
+                    <p>-Uscător de păr</p>
                 </div>
             </div>
                 

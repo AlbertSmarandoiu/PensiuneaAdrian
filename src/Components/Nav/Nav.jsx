@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import navCSS from "./../Nav/Nav.module.css";
 
-// import img1 from './../../assets/logo.png'
+ import img1 from './../../assets/logo.png'
 
 function Nav() {
     const menu = useRef();
@@ -23,10 +23,13 @@ function Nav() {
 
     return (
         <div className={navCSS.nav_wrapper} ref={navbar}>
-            {/* <img src={img1} alt="aminties-img"className={amenitiesCSS.image}/> */}
+            
+            
             <div className={navCSS.logo}>
+            <img src={img1} alt="aminties-img"className={navCSS.imageLogo}/>
                 <a href="#">
-                    <span>Pensiunea</span> Adrian
+                     
+                    <span>Pensiunea Adrian</span> 
                 </a>
             </div>
 
@@ -47,7 +50,7 @@ function Nav() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Book news
+                    Book now
                 </a>
                 <i className="ri-menu-4-line" id={navCSS.bars} onClick={menuHandler}></i>
             </div>

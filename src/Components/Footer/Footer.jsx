@@ -7,7 +7,7 @@ function Footer(){
             <div className={footerCSS.FooterLinks}>
                 <div className={footerCSS.logo}></div>
                 <h2>Pensiunea Adrian</h2>
-                <p>Pensiune cu un renume prin calitate si seriozitate</p>
+                <p>Un loc unde natura îmbrățișează confortul, unde distracția și relaxarea se întâlnesc, iar fiecare oaspete descoperă bucuria unui sejur de neuitat. La noi, clipele frumoase devin amintiri pentru totdeauna!</p>
             </div>
             <div className={footerCSS.FooterLinks}>
                 <h3>Cateva Linkuri:</h3>
@@ -46,10 +46,10 @@ function Footer(){
                 </p>   <p>
                     Telefon: 
                     <a
-                        href="tel:0786767413"
+                        href="tel:0757741699"
                         className={footerCSS.link}
                     >
-                        0786767413
+                        0757741699
                     </a>
                 </p>
             </div>

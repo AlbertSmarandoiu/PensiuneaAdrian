@@ -1,0 +1,10 @@
+.responsive-container {
+    display: flex;
+    flex-direction: row !important;
+}
+
+@media (max-width: 1200px) {
+    .responsive-container {
+        flex-direction: column !important;
+    }
+}

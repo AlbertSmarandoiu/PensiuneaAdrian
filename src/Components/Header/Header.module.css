@@ -13,7 +13,7 @@
 .Header_slide{
     height: 100%;
     width: 100%;
-    background-image: url(./../../assets/pensiune_integrala.png);
+    background-image: url(./../../assets/galerie2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -33,11 +33,11 @@
 }
 
 .slider2{
-    background-image: url(./../../assets/rename.png);
+    background-image: url(./../../assets/galerie10.jpg);
 }
 
 .slider3{
-    background-image: url(./../../assets/pensiune_integrala2.png);
+    background-image: url(./../../assets/galerie1.jpg);
 }
 
 .Header_slide .content{
