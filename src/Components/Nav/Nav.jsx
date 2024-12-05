@@ -29,7 +29,7 @@ function Nav() {
             <img src={img1} alt="aminties-img"className={navCSS.imageLogo}/>
                 <a href="#">
                      
-                    <span>Pensiunea Adrian</span> 
+                    Pensiunea Adrian
                 </a>
             </div>
 

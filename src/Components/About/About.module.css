@@ -92,8 +92,11 @@
         text-align: center;
     }
     .about_img {
-        max-width: 100%;
-        align-items: center;
+        display: flex; /* Asigură alinierea flexibilă */
+        justify-content: center; /* Centrează pe orizontală */
+        align-items: center; /* Centrează pe verticală, dacă este cazul */
+        width: 100%; /* Asigură că ocupă lățimea disponibilă */
+        margin: 20px auto; /* Adaugă spațiu egal pe lateral */
     }
     .about_img img {
         width: 100%;
@@ -119,38 +122,48 @@
     }
     
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:768px) {
     .about_wrapper {
-        /* display: flex; */
-        flex-direction: column;
-        align-items: flex-start;
-        text-align: center;
+        width: 100%; /* Asigură că wrapper-ul ocupă întreaga lățime */
+        margin: 0; /* Elimină marginile exterioare */
+        padding: 0; /* Elimină spațiul interior */
+    }
+
+    .about_content {
+        width: 100%; /* Lățime completă */
+        padding: 0 10px; /* 10px spațiu pe lateral */
+        margin: 0; /* Elimină marginile exterioare */
+        text-align: left; /* Aliniază textul la stânga */
+    }
+    .about_content p {
+        padding: 10px; /* Oferă un spațiu minim, astfel încât textul să nu fie lipit complet de margine */
     }
     .about_img {
-        max-width: 100%;
-        align-items: center;
+        display: flex; /* Asigură alinierea flexibilă */
+        justify-content: center; /* Centrează pe orizontală */
+        align-items: center; /* Centrează pe verticală, dacă este cazul */
+        width: 100%; /* Asigură că ocupă lățimea disponibilă */
+        margin: 20px auto; /* Adaugă spațiu egal pe lateral */
     }
     .about_img img {
-        width: 100%;
-        height: auto;
-        min-width: 400px;
-        align-items: center;
+        width: 80%; /* Imaginea va ocupa 80% din lățime */
+        max-width: 100%; /* Previne depășirea containerului */
+        height: auto; /* Păstrează proporțiile */
     }
-    .aboutPensiune{
+    .aboutPensiune {
         flex: 2;
         max-width: 100%;
-        white-space: normal; /* Permite textului să se împacheteze pe mai multe linii */
+        white-space: normal; /* Permite textului să se împacheteze */
         text-align: left;
-        min-width: 300px;
+        margin: 0; /* Elimină margini exterioare */
+        padding: 10px; /* Mic spațiu interior pentru lizibilitate */
     }
-    .aboutPensiune span {
-        flex-basis: 0; /* Elimină restricția de lățime pe span-uri */
+    .Cards {
+        grid-template-columns: 1fr; /* Face cardurile să ocupe întreaga lățime */
+        margin: 0; /* Elimină marginile cardurilor */
+        gap: 10px; /* Reduce spațiul între carduri */
     }
-    .about_content{
-        width: 100%;
+    .Cards p {
+        padding: 20px; /* Ajustează padding-ul pentru lizibilitate */
     }
-    .Cards{
-        grid-template-columns: repeat(3,1fr);
-    }
-    
 }

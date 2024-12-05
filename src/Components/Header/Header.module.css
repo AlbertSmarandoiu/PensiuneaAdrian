@@ -47,14 +47,13 @@
     z-index: 2;
     flex-direction: column;
     gap: 18px;
-    font-family: 'Poppins'
-
+    font-family: 'Poppins', sans-serif;
 }
 .Header_slide .content small{
     color: #000;
     font-size: 40px;
     margin-bottom: 20%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -62,7 +61,7 @@
     color: #ffffff;
     font-size: 26px;
     margin-bottom: 20%;
-    font-family: 'Poppins'
+    font-family: 'Poppins', sans-serif;
 }
 
 .Header_slide .content .h2 span{
@@ -73,7 +72,7 @@
     color: #cb5c00;
     font-size: 18px;
     top: 1;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
 }
 .Header_slide  span{
     color: #cb5c00;

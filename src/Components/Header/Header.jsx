@@ -1,5 +1,7 @@
 import React from "react";
 import headerCSS from './../Header/Header.module.css'
+import '../../index.css'; // Importă CSS-ul global
+
 
 import {Swiper ,SwiperSlide } from 'swiper/react'
 import 'swiper/css'
@@ -39,11 +41,13 @@ function Header(){
                             <small data-swiper-parallax="-200">Pensiunea Adrian</small>
                             <h2 data-swiper-parallax="-300">Cu o piscină încălzită și experiențe de lux,<br /> vacanța ta devine un răsfăț la superlativ! 🌊✨
                             </h2>
-                            <p data-swiper-parallax="-400">Suna acum <span>0757741699</span></p>
+                            <p style={{
+                            
+                            }} data-swiper-parallax="-400">Suna acum <span>0757741699</span></p>
                         </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>
+                {/* <SwiperSlide>
                     <div className={`${headerCSS.Header_slide} ${headerCSS.slider1}`}>
                         <div className={headerCSS.content}>
                             <small data-swiper-parallax="-200"></small>
@@ -52,7 +56,7 @@ function Header(){
                             <p data-swiper-parallax="-400">Suna acum <span>0757741699</span></p>
                         </div>
                     </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
             </Swiper>
         </div>
     )

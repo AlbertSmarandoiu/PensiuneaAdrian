@@ -79,22 +79,19 @@
     }
 }
     
-@media screen and (max-width:768px) {
-
-    .amenities_item{
+@media screen and (max-width: 768px) {
+    .amenities_item {
         flex-direction: column;
+        margin: 0 5px; /* Adaugă 15px pe marginile stânga și dreapta */
     }
 
-    .amenities_item img{
+    .amenities_item img {
         width: 100%;
+        margin: 0;
     }
 
-    
+    .content {
+        padding: 0 15px; /* Adaugă 15px spațiu pentru text */
+    }
 }
 
-
-/* .swiper-slide {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}  */

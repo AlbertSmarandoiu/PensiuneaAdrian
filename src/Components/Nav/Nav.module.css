@@ -170,3 +170,53 @@
     }
 }
 
+
+
+/* Ascunde numele la dimensiuni mai mici de 768px */
+@media screen and (max-width: 768px) {
+    .nav_wrapper .logo a {
+        display: none; /* Ascunde textul "Pensiunea Adrian" */
+    }
+
+    .Nav_btns {
+        display: flex;
+        justify-content: space-between;
+        width: 50%; /* Lărgește containerul pentru a alinia corect */
+        gap: 10px;
+    }
+
+    #bars {
+        display: flex; /* Activează meniul hamburger */
+        margin-left: auto;
+    }
+
+    .nav_menu {
+        position: absolute;
+        top: 100%; /* Sub navbar */
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        display: none; /* Ascuns implicit */
+        background-color: rgba(0, 0, 0, 0.9); /* Fundal pentru meniul mobil */
+        text-align: left;
+    }
+
+    .showNav {
+        display: flex; /* Afișează meniul când este activat */
+    }
+
+    .nav_menu li {
+        padding: 15px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .nav_menu li:last-child {
+        border: none;
+    }
+
+    .nav_menu li a {
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
