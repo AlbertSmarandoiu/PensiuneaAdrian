@@ -1,6 +1,10 @@
-.about_wrapper{
-    flex-direction: row;
+.about_wrapper {
+    display: flex;
+    flex-direction: row; /* Imagine în stânga, text în dreapta */
+    align-items: center;
+    justify-content: space-between;
 }
+
 
 .about_img{
     width: 50%;
@@ -116,6 +120,10 @@
     }
     .about_content{
         width: 100%;
+        text-align: center;
+        margin: 20px auto;
+        padding: 0 10px;
+
     }
     .Cards{
         grid-template-columns: repeat(3,1fr);
@@ -132,8 +140,9 @@
     .about_content {
         width: 100%; /* Lățime completă */
         padding: 0 10px; /* 10px spațiu pe lateral */
-        margin: 0; /* Elimină marginile exterioare */
-        text-align: left; /* Aliniază textul la stânga */
+        margin: 20px auto; /* Elimină marginile exterioare */
+        text-align: center; /* Aliniază textul la stânga */
+        text-size-adjust: 30px;
     }
     .about_content p {
         padding: 10px; /* Oferă un spațiu minim, astfel încât textul să nu fie lipit complet de margine */
@@ -142,13 +151,15 @@
         display: flex; /* Asigură alinierea flexibilă */
         justify-content: center; /* Centrează pe orizontală */
         align-items: center; /* Centrează pe verticală, dacă este cazul */
-        width: 100%; /* Asigură că ocupă lățimea disponibilă */
+        width: 80%; /* Asigură că ocupă lățimea disponibilă */
         margin: 20px auto; /* Adaugă spațiu egal pe lateral */
     }
     .about_img img {
-        width: 80%; /* Imaginea va ocupa 80% din lățime */
-        max-width: 100%; /* Previne depășirea containerului */
-        height: auto; /* Păstrează proporțiile */
+        width: 60%; /* Imaginea va ocupa 80% din lățime */
+        max-width: 80%; /* Previne depășirea containerului */
+        /* height: auto; Păstrează proporțiile */
+        margin-left: 15px;
+        margin-right: 15px;
     }
     .aboutPensiune {
         flex: 2;
@@ -160,7 +171,7 @@
     }
     .Cards {
         grid-template-columns: 1fr; /* Face cardurile să ocupe întreaga lățime */
-        margin: 0; /* Elimină marginile cardurilor */
+        margin: 15px ; /* Elimină marginile cardurilor */
         gap: 10px; /* Reduce spațiul între carduri */
     }
     .Cards p {

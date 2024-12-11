@@ -100,12 +100,14 @@ button {
   font-weight: 600;
   color: #1e1e1e;
   font-family: 'Playfair Display', serif; /* Font pentru secțiunea de titluri */
+  padding: 30px;
 }
 
 .section_Title {
   font-size: 30px;
   color: #1e1e1e;
   font-family: 'Playfair Display', serif; /* Font pentru titluri */
+  padding: 30px;
 }
 
 .Cards p {

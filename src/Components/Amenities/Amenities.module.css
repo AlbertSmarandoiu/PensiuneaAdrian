@@ -7,6 +7,8 @@
     display: flex;
     align-items: center;
     gap: 30px;
+    margin-left: 40px;
+    margin-right: 60px;
 }
 
 .amenities_item img{
@@ -22,6 +24,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    align-items: center;
 
 }
 .image {
@@ -60,7 +63,7 @@
 @media screen and (max-width:1200px) {
     .content h2{
         font-size: 45px;
-        margin-left: 0px;
+        margin-left: 30px;
        
     
     }
@@ -82,16 +85,18 @@
 @media screen and (max-width: 768px) {
     .amenities_item {
         flex-direction: column;
-        margin: 0 5px; /* Adaugă 15px pe marginile stânga și dreapta */
+        /* margin: 15px 15px; Adaugă 15px pe marginile stânga și dreapta */
+        align-items: center;
     }
 
     .amenities_item img {
         width: 100%;
-        margin: 0;
+        margin-left: 15px;
+        align-items: center;
     }
 
     .content {
-        padding: 0 15px; /* Adaugă 15px spațiu pentru text */
+        padding: 0 10px; /* Adaugă 15px spațiu pentru text */
     }
 }
 

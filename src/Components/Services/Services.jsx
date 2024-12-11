@@ -7,7 +7,7 @@ function Services(){
     return (
         <div className={`${ServicesCSS.Sevices_wrapper} section`}>
             <small  className="section_Heading">Facilitati:</small>
-            <h2 className="section_Title">Despre <span>noi</span></h2>
+            <h2 className="section_Title"><span></span></h2>
 
             <div className={ServicesCSS.Services_cards}>
                 <div className={ServicesCSS.Services_card}>

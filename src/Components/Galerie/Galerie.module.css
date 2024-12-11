@@ -89,4 +89,18 @@
     .thumbnail {
         height: 100px;
     }
+    .prevButton,
+    .nextButton {
+        top: auto; /* Elimină poziționarea verticală */
+        bottom: 10%; /* Poziționează săgețile în partea de jos */
+        transform: translateY(0); /* Elimină translatarea */
+    }
+
+    .prevButton {
+        left: 15%; /* Poziționează săgeata din stânga */
+    }
+
+    .nextButton {
+        right: 15%; /* Poziționează săgeata din dreapta */
+    }
 }

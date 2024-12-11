@@ -10,6 +10,8 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .link {
     color: #fff;
@@ -50,9 +52,15 @@
         grid-template-columns: repeat(2,1fr);
     }
 }
-@media screen and (max-width:900px){
+@media screen and (max-width:768px){
     .footer_wrapper{
        
         grid-template-columns: repeat(1,1fr);
+    }
+    
+    .FooterLinks{
+        margin-left: 15px;
+        margin-right:15px;
+        margin-top: 2px;
     }
 }

@@ -3,9 +3,14 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
 
 }
 
+.section_Heading {
+    margin-left: 15px; /* Adaugă un spațiu de 15px din partea stângă */
+}
 
 .Services_cards .Services_card{
     padding: 35px 30px;
@@ -26,7 +31,7 @@
 .Services_cards .Services_card i{
     font-size: 30px;
     color: #df8033;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 .Services_cards .Services_card:hover i{
     animation: Anim_shake 0.2s forwards linear;
@@ -73,8 +78,14 @@
     .Services_cards{
         
         grid-template-columns: repeat(1,1fr);
-       
+        padding: 3px;
+        margin-left: 15px;
+        margin-right: 15px;
     
+    }
+    
+    .Services_card{
+        padding: 10px;
     }
     
 }
