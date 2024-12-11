@@ -39,7 +39,7 @@ function Amenities(){
                                 <h2>
                                     Piscina
                                 </h2>
-                                <p>Relaxare totală cu acces gratuit la piscina încălzită pe toată durata șederii! Apusuri de vis, natură, și voie bună, totul într-un colț de paradis. 🌞💦</p>
+                                <p>Relaxare totală cu acces gratuit la piscina încălzită pe toată durata șederii! Apusuri de vis, natură, și voie bună, totul într-un colț de paradis.</p>
                                 <button>Book Now</button>
                             </div>
                     </div>
@@ -63,7 +63,7 @@ function Amenities(){
                                 <h2>
                                     Jacuzzi
                                 </h2>
-                                <p>Jacuzzi-ul gratuit e răsfățul suprem pe toată durata șederii - bule relaxante, priveliști de vis și vibe-ul perfect pentru vacanța ta! 🛁✨</p>
+                                <p>Jacuzzi-ul gratuit e răsfățul suprem pe toată durata șederii - bule relaxante, priveliști de vis și vibe-ul perfect pentru vacanța ta!</p>
                                 <button>Book Now</button>
                             </div>
                     </div>
@@ -75,7 +75,7 @@ function Amenities(){
                                 <h2>
                                     Biliard
                                 </h2>
-                                <p>La pensiunea noastră, distracția prinde forme noi! 🎱🏓<br /> Combinăm eleganța jocului de biliard cu energia tenisului de masă,<br /> oferindu-vă două activități clasice pentru momente memorabile alături de prieteni și familie.  </p>
+                                <p>La pensiunea noastră, distracția prinde forme noi!<br /> Combinăm eleganța jocului de biliard cu energia tenisului de masă,<br /> oferindu-vă două activități clasice pentru momente memorabile alături de prieteni și familie.  </p>
                                 <button>Book Now</button>
                             </div>
                     </div>
@@ -87,7 +87,7 @@ function Amenities(){
                                 <h2>
                                     Foc de tabara
                                 </h2>
-                                <p>Vă invităm să descoperiți colțul nostru de poveste - locul de vatră pentru foc, sub cerul liber! 🌌🔥
+                                <p>Vă invităm să descoperiți colțul nostru de poveste - locul de vatră pentru foc, sub cerul liber! 
                                 </p>
                                 <button>Book Now</button>
                             </div>

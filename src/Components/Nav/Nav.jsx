@@ -20,6 +20,9 @@ function Nav() {
             navbar.current.classList.remove(navCSS.navbarScroll);
         }
     });
+    const closeMenu = () => {
+        menu.current.classList.remove(navCSS.showNav);
+    };
 
     return (
         <div className={navCSS.nav_wrapper} ref={navbar}>
@@ -35,11 +38,12 @@ function Nav() {
 
             {/* Menu UL */}
             <ul ref={menu} className={navCSS.nav_menu}>
-                <li><a href="#">Acasa</a></li>
-                <li><a href="#despre-noi">Despre Noi</a></li>
-                <li><a href="#camere">Camere</a></li>
-                <li><a href="#galerieFoto">Galerie</a></li>
-                <li><a href="#contact">Contact</a></li>
+                
+                <li><a href="#" onClick={closeMenu}>Acasa</a></li>
+                <li><a href="#despre-noi" onClick={closeMenu}>Despre Noi</a></li>
+                <li><a href="#camere" onClick={closeMenu}>Camere</a></li>
+                <li><a href="#galerieFoto" onClick={closeMenu}>Galerie</a></li>
+                <li><a href="#contact" onClick={closeMenu}>Contact</a></li>
             </ul>
 
             {/* WhatsApp Button */}
@@ -52,7 +56,11 @@ function Nav() {
                 >
                     Book now
                 </a>
-                <i className="ri-menu-4-line" id={navCSS.bars} onClick={menuHandler}></i>
+                <div id={navCSS.bars} onClick={menuHandler}>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
             </div>
         </div>
     );
