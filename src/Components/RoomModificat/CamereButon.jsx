@@ -34,7 +34,7 @@ function CamereButon() {
               style={{
                 marginTop: "10px",
                 padding: "10px 20px",
-                backgroundColor: "#cb5c00",
+                backgroundColor: "#3a2f25fa",
                 color: "white",
                 border: "none",
                 borderRadius: "20px",

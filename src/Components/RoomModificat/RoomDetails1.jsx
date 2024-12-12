@@ -260,7 +260,7 @@ function RoomDetails1() {
         <button
           style={{
             padding: "15px 30px",
-            backgroundColor: "#cb5c00",
+            backgroundColor: "#3a2f25fa",
             color: "white",
             border: "none",
             borderRadius: "5px",

@@ -1,4 +1,4 @@
-.cards {
+/* .cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
@@ -33,7 +33,7 @@
 }
 
 .btn {
-  background: linear-gradient(135deg, #ff7f50, #ff4500);
+  background: linear-gradient(135deg, #3a2f25fa, #3a2f25fa);
   color: white;
   border: none;
   padding: 10px 20px;
@@ -44,7 +44,7 @@
 }
 
 .btn:hover {
-  background: linear-gradient(135deg, #ff4500, #c71585);
+  background: linear-gradient(135deg, #3a2f25fa, #3a2f25fa);
   transform: scale(1.05);
 }
 
@@ -58,4 +58,4 @@
   .cards {
     grid-template-columns: 1fr;
   }
-}
+} */

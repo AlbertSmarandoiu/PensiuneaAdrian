@@ -55,7 +55,7 @@
 }
 
 .room-button {
-  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  background: linear-gradient(to right, #3a2f25fa, #3a2f25fa);
   color: white;
   padding: 10px 20px;
   text-decoration: none;
@@ -66,7 +66,7 @@
 }
 
 .room-button:hover {
-  background: linear-gradient(to right, #feb47b, #ff7e5f);
+  background: linear-gradient(to right, #3a2f25fa, #3a2f25fa);
 }
 
 /* Media queries pentru responsive design */

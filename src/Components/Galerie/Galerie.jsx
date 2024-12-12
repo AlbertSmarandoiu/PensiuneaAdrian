@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import galerieCSS from "./../Galerie/Galerie.module.css";
 
 import img1 from "./../../assets/galerie1.jpg";
-import img2 from "./../../assets/galerie2.jpg";
+// import img2 from "./../../assets/galerie2.jpg";
 import img3 from "./../../assets/galerie3.jpg";
 import img4 from "./../../assets/galerie4.jpg";
 import img5 from "./../../assets/galerie5.jpg";
@@ -23,7 +23,7 @@ import img12 from "./../../assets/pozagalerie15.jpg"
 // import img18 from "./../../assets/gratar.png";
 
 const images = [
-    img1, img2, img3, img4,img5 , img6 , 
+    img1, img3, img4,img5 , img6 , 
     img7 , img8 , img9 , 
     img10,img11,img12
 ];
